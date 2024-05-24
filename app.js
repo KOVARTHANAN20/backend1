@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // router.
-app.get('/movie',(req,res) => {
+app.get('/',(req,res) => {
     res.send("movies from server...");
 })
 
